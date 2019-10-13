@@ -1,12 +1,12 @@
 /* ====== События, связанные с мышью ===== */
 
-// $('button').click(function() {
-// 	console.log('Ты кликнул на кнопку');
-// }); // Клик мышью
+ $('button').click(function() {
+ 	console.log('Ты кликнул на кнопку');
+ }); // Клик мышью
 
-// $('button').dblclick(function() {
-// 	console.log('Ты кликнул на кнопку дважды');
-// }); // Двойной клик мышью
+ $('button').dblclick(function() {
+ 	console.log('Ты кликнул на кнопку дважды');
+ }); // Двойной клик мышью
 
 // $('ul li').mouseenter(function(event) {
 // 	$(this).css('color', 'red');
