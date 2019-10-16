@@ -1,39 +1,3 @@
-/* Всё о всплывающих (модальных) окнах */
-
-/*$(document).ready(function() {
- 	var modal = $('.popup'),
- 					overlay = $('.overlay'),
- 					link = $('button[data-popup="true"]'),
- 					close = $('.close-btn');
- 	link.on('click', function () {
- 		overlay.show();
- 		modal.show();
- 	});
- 	close.click(function() {
- 		overlay.hide();
- 		modal.hide();
- 	});
- });	*/ // Самый простой вариант всплывающего окна
-
-
-/*$(document).ready(function() {
- 	var modal = $('.popup'),
- 					overlay = $('.overlay'),
- 					link = $('button[data-popup="true"]'),
- 					close = $('.close-btn');
-
- 	close.click(function() {
- 		modal.toggleClass('popup_active');
- 		overlay.hide();
- 	});
- 	link.on('click', function () {
- 		console.log(modal);
- 		overlay.show();
- 		modal.toggleClass('popup_active');
- 	});
- });*/	// Красивое появляение окна 
-
-
 $(document).ready(function() {
  	var modal = $('.popup'),
  					overlay = $('.overlay'),
@@ -50,7 +14,7 @@ $(document).ready(function() {
  		overlay.show();
  		modal.toggleClass('popup_active');
  	});
- });// Много кнопок - одно окно
+ });
 
 
 
