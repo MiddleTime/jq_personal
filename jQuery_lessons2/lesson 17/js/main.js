@@ -6,9 +6,9 @@ $(function() {
 					typeOfHouse = $('input[name="typeOfHouse"]').val(),
 					project = $('input[type="checkbox"]'),
 					price = $('#price'),
-					basePrice = 30000,
+					basePrice = 3000,
 					design = 0,
-					finalPrice = 900000;
+					finalPrice = 90000;
 
 		mCount.change(function() {
 			if ($(this).val() > 20) {
@@ -36,7 +36,7 @@ $(function() {
 		});
 		project.change(function(event) {
 			if ($(this).is(':checked')) {
-				design = 15000;
+				design = 1500;
 				finalPrice =  (+mCount.val() * basePrice) * +floorNumber.val() * +typeOfHouse + design; 
 					price.text(finalPrice);
 			} else {
@@ -46,5 +46,5 @@ $(function() {
 			}
 		});
 
-		price.text('900000');
+		price.text('90000');
 });
