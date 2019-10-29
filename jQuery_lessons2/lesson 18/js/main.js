@@ -1,4 +1,3 @@
-/* Заполнение банковской карты на сайте */
 $(function() {
 	$('.input-cart-number').numeric();
 	$('#card-ccv').numeric();
